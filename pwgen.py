@@ -12,7 +12,7 @@ except IOError:
 validchars = ['abcdefghijklmnopqrstuvwxyz',
               'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
               '1234567890',
-              '(){}[]+=-?<>,.:;~!@#$%^&*']
+              '_+=-?!@$&*']
 
 if len(argv) > 2:
     n = int(argv[2])
